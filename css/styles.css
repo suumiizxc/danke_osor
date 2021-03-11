@@ -119,7 +119,7 @@ a:hover {
 }
 
 a.green {
-	color: #14bf98;
+	color: #009a00;
 }
 
 a.white,
@@ -140,16 +140,16 @@ strong {
 }
 
 .section-title {
-	color: #14bf98;
+	color: #ffbf00;
 	font: 500 0.8125rem/1.125rem "Montserrat", sans-serif;
 }
 
 .btn-solid-reg {
 	display: inline-block;
 	padding: 1.1875rem 1.875rem 1.1875rem 1.875rem;
-	border: 0.125rem solid #14bf98;
+	border: 0.125rem solid #009a00;
 	border-radius: 0.25rem;
-	background-color: #14bf98;
+	background-color: #009a00;
 	color: #fff;
 	font: 700 0.75rem/0 "Montserrat", sans-serif;
 	text-decoration: none;
@@ -158,16 +158,16 @@ strong {
 
 .btn-solid-reg:hover {
 	background-color: transparent;
-	color: #14bf98;
+	color: #009a00 ;
 	text-decoration: none;
 }
 
 .btn-solid-lg {
 	display: inline-block;
 	padding: 1.375rem 2.125rem 1.375rem 2.125rem;
-	border: 0.125rem solid #14bf98;
+	border: 0.125rem solid #009a00 ;
 	border-radius: 0.25rem;
-	background-color: #14bf98;
+	background-color: #009a00;
 	color: #fff;
 	font: 700 0.75rem/0 "Montserrat", sans-serif;
 	text-decoration: none;
@@ -176,7 +176,7 @@ strong {
 
 .btn-solid-lg:hover {
 	background-color: transparent;
-	color: #14bf98;
+	color: #009a00 ;
 	text-decoration: none;
 }
 
@@ -682,7 +682,7 @@ input[type='checkbox'] {
 
 .navbar-custom .nav-item .nav-link:hover,
 .navbar-custom .nav-item .nav-link.active {
-	color: #14bf98;
+	color: #009a00;
 }
 
 /* Dropdown Menu */
@@ -772,7 +772,7 @@ input[type='checkbox'] {
 /*    04. Header     */
 /*********************/
 .header {
-	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url('../images/header-background.jpg') center center no-repeat;
+	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url('../img/home.jpg') center center no-repeat;
 	background-size: cover;
 }
 
@@ -940,7 +940,7 @@ input[type='checkbox'] {
 }
 
 .cards-2 .list-unstyled .fas {
-	color: #14bf98;
+	color: #009a00;
 	font-size: 0.5rem;
 	line-height: 1.375rem;
 }
@@ -957,7 +957,7 @@ input[type='checkbox'] {
 }
 
 .cards-2 .price span {
-	color: #14bf98;
+	color: #009a00;
 }
 
 .cards-2 .button-container {
@@ -975,7 +975,7 @@ input[type='checkbox'] {
 /*************************/
 .accordion .area-1 {
 	height: 27rem;
-	background: url('../images/details-1-background.jpg') center center no-repeat;
+	background: url('../img/ulaanbaatar_city1.jpg') center center no-repeat;
 	background-size: cover;
 }
 
@@ -1005,9 +1005,9 @@ input[type='checkbox'] {
 	width: 2.25rem;
 	height: 2.25rem;
 	margin-right: 0.875rem;
-	border: 0.125rem solid #14bf98;
+	border: 0.125rem solid #009a00 ;
 	border-radius: 50%;
-	background-color: #14bf98;
+	background-color: #009a00 ;
 	color: #fff;
 	font: 700 1rem/2.125rem "Montserrat", sans-serif;
 	text-align: center;
@@ -1024,7 +1024,7 @@ input[type='checkbox'] {
 
 .accordion .item:hover span[aria-expanded="false"] .circle-numbering {
 	border: 0.125rem solid #14bf98;
-	color: #14bf98;
+	color: #14bf98 ;
 }
 
 .accordion .accordion-title {
@@ -1044,7 +1044,7 @@ input[type='checkbox'] {
 }
 
 .accordion span[aria-expanded="true"] .accordion-title {
-	color: #14bf98;
+	color: #009a00 ;
 }
 
 .accordion .accordion-body {
@@ -1083,7 +1083,7 @@ input[type='checkbox'] {
 
 .tabs .nav-link:hover,
 .tabs .nav-link.active {
-	color: #14bf98;
+	color: #009a00;
 }
 
 .tabs .nav-link .fas {
@@ -1113,7 +1113,7 @@ input[type='checkbox'] {
 	display: block;
 	padding-left: 1.5rem;
 	border-radius: 0.125rem;
-	background: linear-gradient(to bottom right, #14bf98, #1bd1a7);
+	background: linear-gradient(to bottom right, #009a00, #1bd1a7);
 }
 
 .tabs #tab-1 .progress-bar.first {
@@ -1150,7 +1150,7 @@ input[type='checkbox'] {
 }
 
 .tabs #tab-3 .list-unstyled .fas {
-	color: #14bf98;
+	color: #009a00;
 	font-size: 0.5rem;
 	line-height: 1.375rem;
 }
@@ -1165,7 +1165,7 @@ input[type='checkbox'] {
 
 .tabs .area-2 {
 	height: 27rem;
-	background: url('../images/details-2-background.jpg') center center no-repeat;
+	background: url('../img/ulaanbaatar_city2.jpg') center center no-repeat;
 	background-size: cover;
 }
 
@@ -1413,7 +1413,7 @@ input[type='checkbox'] {
 /**********************************/
 .lightbox-basic {
 	position: relative;
-	max-width: 62.5rem;
+	max-width: 100.5rem;
 	margin: 2.5rem auto;
 	padding: 1.5625rem;
 	border-radius: 0.25rem;
@@ -1666,7 +1666,7 @@ input[type='checkbox'] {
 .form-2 .list-unstyled .fab {
 	margin-right: 0.5rem;
 	font-size: 0.875rem;
-	color: #14bf98;
+	color: #009a00;
 }
 
 .form-2 .list-unstyled .fa-phone {
@@ -1764,7 +1764,7 @@ a.back-to-top {
 	width: 2.625rem;
 	height: 2.625rem;
 	border-radius: 1.875rem;
-	background: #14bf98 url("../images/up-arrow.png") no-repeat center 47%;
+	background: #009a00 url("../images/up-arrow.png") no-repeat center 47%;
 	background-size: 1.125rem 1.125rem;
 	text-indent: -9999px;
 }
@@ -1876,7 +1876,7 @@ a:hover.back-to-top {
 	
 	.navbar-custom .nav-item .nav-link:hover,
 	.navbar-custom .nav-item .nav-link.active {
-		color: #14bf98;
+		color: #009a00;
 	}
 
 	.navbar-custom.top-nav-collapse {
@@ -1895,7 +1895,7 @@ a:hover.back-to-top {
 	
 	.navbar-custom.top-nav-collapse .nav-item .nav-link:hover,
 	.navbar-custom.top-nav-collapse .nav-item .nav-link.active {
-		color: #14bf98;
+		color: #009a00;
 	}
 
 	.navbar-custom .dropdown-menu {

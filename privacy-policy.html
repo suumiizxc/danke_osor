@@ -140,150 +140,216 @@
     <!-- end of breadcrumbs -->
 
 
-    <!-- Privacy Content -->
-    <div class="ex-basic-2">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="text-container">
-                        <h3>Private Data We Receive And Collect</h3>
-                        <p>Aria also automatically collects and receives certain information from your computer or mobile device, including the activities you perform on our Website, the Platforms, and the Applications, the type of hardware and software you are using (for example, your operating system or browser), and information obtained from cookies. For example, each time you visit the Website or otherwise use the Services, we automatically collect your IP address, browser and device type, access times, the web page from which you came, the regions from which you navigate the web page, and the web page(s) you access (as applicable).</p>
-                        <p>When you first register for a Aria account, and when you use the Services, we collect some <a class="green" href="#your-link">Personal Information</a> about you such as:</p>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <ul class="list-unstyled li-space-lg indent">
-                                    <li class="media">
-                                        <i class="fas fa-square"></i>
-                                        <div class="media-body">The geographic area where you use your computer and mobile devices</div>
-                                    </li>
-                                    <li class="media">
-                                        <i class="fas fa-square"></i>
-                                        <div class="media-body">Your full name, username, and email address and other contact details</div>
-                                    </li>
-                                    <li class="media">
-                                        <i class="fas fa-square"></i>
-                                        <div class="media-body">A unique Aria user ID (an alphanumeric string) which is assigned to you upon registration</div>
-                                    </li>
-                                    <li class="media">
-                                        <i class="fas fa-square"></i>
-                                        <div class="media-body">Other optional information as part of your account profile</div>
-                                    </li>
-                                    <li class="media">
-                                        <i class="fas fa-square"></i>
-                                        <div class="media-body">Your IP Address and, when applicable, timestamp related to your consent and confirmation of consent</div>
-                                    </li>
-                                    <li class="media">
-                                        <i class="fas fa-square"></i>
-                                        <div class="media-body">Other information submitted by you or your organizational representatives via various methods</div>
-                                    </li>
-                                </ul>
-                            </div> <!-- end of col -->
+    <!-- Styles -->
+<style>
+#chartdiv {
+  width: 100%;
+  height: 600px;
+}
+</style>
 
-                            <div class="col-md-6">
-                                <ul class="list-unstyled li-space-lg indent">
-                                    <li class="media">
-                                        <i class="fas fa-square"></i>
-                                        <div class="media-body">Your billing address and any necessary other information to complete any financial transaction, and when making purchases through the Services, we may also collect your credit card or PayPal information</div>
-                                    </li>
-                                    <li class="media">
-                                        <i class="fas fa-square"></i>
-                                        <div class="media-body">User generated content (such as messages, posts, comments, pages, profiles, images, feeds or communications exchanged on the Supported Platforms)</div>
-                                    </li>
-                                    <li class="media">
-                                        <i class="fas fa-square"></i>
-                                        <div class="media-body">Images or other files that you may publish via our Services</div>
-                                    </li>
-                                    <li class="media">
-                                        <i class="fas fa-square"></i>
-                                        <div class="media-body">Information (such as messages, posts, comments, pages, profiles, images) we may receive relating to communications you send us, such as queries or comments concerning</div>
-                                    </li>
-                                </ul>
-                            </div> <!-- end of col -->
-                        </div> <!-- end of row -->
-                    </div> <!-- end of text-container-->
-                    
-                    <div class="text-container">
-                        <h3>How We Use Aria Landing Page Data</h3>
-                        <p>Aria SaaS Landing Page Template uses visitors' data for the following general purposes:</p>
-                        <ol class="li-space-lg">
-                            <li>To identify you when you login to your account</li>
-                            <li>To enable us to operate the Services and provide them to you</li>
-                            <li>To verify your transactions and for purchase confirmation, billing, security, and authentication (including security tokens for communication with installed)</li>
-                            <li>To analyze the Website or the other Services and information about our visitors and users, including research into our user demographics and user behaviour in order to improve our content and Services</li>
-                            <li>To contact you about your account and provide customer service support, including responding to your comments and questions</li>
-                            <li>To share aggregate (non-identifiable) statistics about users of the Services to prospective advertisers and partners</li>
-                            <li>To keep you informed about the Services, features, surveys, newsletters, offers, surveys, newsletters, offers, contests and events we think you may find useful or which you have requested from us</li>
-                            <li>To sell or market Aria Landing Page products and services to you</li>
-                            <li>To better understand your needs and the needs of users in the aggregate, diagnose problems, analyze trends, improve the features and usability of the Services, and better understand and market to our customers and users</li>
-                            <li>To keep the Services safe and secure</li>
-                            <li>We also use non-identifiable information gathered for statistical purposes to keep track of the number of visits to the Services with a view to introducing improvements and improving usability of the Services. We may share this type of statistical data so that our partners also understand how often people use the Services, so that they, too, may provide you with an optimal experience.</li>
-                        </ol>
-                    </div> <!-- end of text-container -->
+<!-- Resources -->
+<script src="https://cdn.amcharts.com/lib/4/core.js"></script>
+<script src="https://cdn.amcharts.com/lib/4/charts.js"></script>
+<script src="https://cdn.amcharts.com/lib/4/plugins/timeline.js"></script>
+<script src="https://cdn.amcharts.com/lib/4/themes/animated.js"></script>
 
-                    <div class="text-container">
-                        <h3>Customer Content We Process For Customers</h3>
-                        <p>Aria is a HTML landing page template tool. By its nature, Services enable our customers to promote their products and services integrate with hundreds of business applications that they already use, all in one place.</p>
-                        <p>Services help our customers promote their products and services, marketing and advertising; engaging audiences; scheduling and publishing messages; and analyze the results.</p>
-                    </div> <!-- end of text container -->
+<!-- Chart code -->
+<script>
+am4core.ready(function() {
 
-                    <div class="text-container">
-                        <h3>Consent Of Using Aria Landing Page</h3>
-					    <p class="mb-5">By using any of the Services, or submitting or collecting any Personal Information via the Services, you consent to the collection, transfer, storage disclosure, and use of your Personal Information in the manner set out in this Privacy Policy. If you do not consent to the use of your Personal Information in these ways, please stop using the Services.</p>
-                    </div> <!-- end of text-container -->
-                                       
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="text-container last">
-                                <h3>Inquire What Data We Have</h3>
-                                <p>Aria Landing Page uses tracking technology on the landing page, in the Applications, and in the Platforms, including mobile application identifiers and a unique Aria user ID to help us recognize you across different Services, to monitor usage and web traffic routing for the Services, and to customize and improve the Services.</p>
-                                <p> By visiting Aria or using the Services you agree to the use of cookies in your browser and HTML-based emails. Cookies are small text files placed on your device when you visit a website. By using any of the Services, or submitting or collecting any Personal Information via the Services, you consent and use of your <a class="green" href="#your-link">Personal Information</a></p>
-                            </div> <!-- end of text container -->
-                        </div> <!-- end of col-->
-                        <div class="col-md-6">
+// Themes begin
+am4core.useTheme(am4themes_animated);
+// Themes end
 
-                            <!-- Privacy Form -->
-                            <div class="form-container">
-                                <form id="privacyForm" data-toggle="validator" data-focus="false">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control-input" id="pname" required>
-                                        <label class="label-control" for="pname">Name</label>
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                    <div class="form-group">
-                                        <input type="email" class="form-control-input" id="pemail" required>
-                                        <label class="label-control" for="pemail">Email</label>
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                    <div class="form-group">
-                                        <select class="form-control-select" id="pselect" required>
-                                            <option class="select-option" value="" disabled selected>Select Option</option>
-                                            <option class="select-option" value="Delete data">Delete my data</option>
-                                            <option class="select-option" value="Show me data">Show me my data</option>
-                                        </select>
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                    <div class="form-group checkbox">
-                                        <input type="checkbox" id="pterms" value="Agreed-to-Terms" required>I have read and agree to Aria's <a href="privacy-policy.html">Privacy Policy</a> and <a href="terms-conditions.html">Terms Conditions</a>
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                    <div class="form-group">
-                                        <button type="submit" class="form-control-submit-button">SUBMIT</button>
-                                    </div>
-                                    <div class="form-message">
-                                        <div id="pmsgSubmit" class="h3 text-center hidden"></div>
-                                    </div>
-                                </form>
-                            </div> <!-- end of form container -->
-                            <!-- end of privacy form -->
+var chart = am4core.create("chartdiv", am4plugins_timeline.CurveChart);
+chart.curveContainer.padding(0, 100, 0, 120);
+chart.maskBullets = false;
 
-                        </div> <!-- end of col--> 
-                    </div> <!-- end of row -->
-                    <a class="btn-outline-reg back" href="index.html">BACK</a>
-                </div> <!-- end of col-->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of ex-basic-2 -->
-    <!-- end of privacy content -->
+var colorSet = new am4core.ColorSet();
+
+chart.data = [{
+    "category": "",
+    "year": "1990",
+    "size": 13,
+    "text": "Lorem ipsum dolor"
+  }, {
+    "category": "",
+    "year": "1995",
+    "size": 5,
+    "text": "Sit amet"
+  }, {
+    "category": "",
+    "year": "2000",
+    "size": 9,
+    "text": "Consectetur adipiscing elit"
+  }, {
+    "category": "",
+    "year": "2005",
+    "size": 12,
+    "text": "Sed do eiusmod"
+  }, {
+    "category": "",
+    "year": "2010",
+    "size": 3,
+    "text": "Tempor incididunt"
+  }, {
+    "category": "",
+    "year": "2015",
+    "size": 9,
+    "text": "Ut labore et dolore"
+  }, {
+    "category": "",
+    "year": "2020",
+    "size": 4,
+    "text": "Magna aliqua"
+  }, {
+    "category": "",
+    "year": "2025",
+    "size": 3,
+    "text": "Ut enim ad minim veniam"
+  }, {
+    "category": "",
+    "size": 10,
+    "year": "2030",
+    "text": "Quis nostrud exercitation"
+  }
+];
+
+chart.dateFormatter.inputDateFormat = "yyyy";
+
+chart.fontSize = 11;
+chart.tooltipContainer.fontSize = 11;
+
+var categoryAxis = chart.yAxes.push(new am4charts.CategoryAxis());
+categoryAxis.dataFields.category = "category";
+categoryAxis.renderer.grid.template.disabled = true;
+
+var dateAxis = chart.xAxes.push(new am4charts.DateAxis());
+dateAxis.renderer.points = [{ x: -400, y: 0 }, { x: 0, y: 50 }, { x: 400, y: 0 }]
+dateAxis.renderer.polyspline.tensionX = 0.8;
+dateAxis.renderer.grid.template.disabled = true;
+dateAxis.renderer.line.strokeDasharray = "1,4";
+dateAxis.baseInterval = {period:"day", count:1}; // otherwise initial animation will be not smooth
+
+dateAxis.renderer.labels.template.disabled = true;
+
+var series = chart.series.push(new am4plugins_timeline.CurveLineSeries());
+series.strokeOpacity = 0;
+series.dataFields.dateX = "year";
+series.dataFields.categoryY = "category";
+series.dataFields.value = "size";
+series.baseAxis = categoryAxis;
+
+var interfaceColors = new am4core.InterfaceColorSet();
+
+series.tooltip.pointerOrientation = "down";
+
+var distance = 100;
+var angle = 60;
+
+var bullet = series.bullets.push(new am4charts.Bullet());
+
+var line = bullet.createChild(am4core.Line);
+line.adapter.add("stroke", function(fill, target) {
+  if (target.dataItem) {
+    return chart.colors.getIndex(target.dataItem.index)
+  }
+});
+
+line.x1 = 0;
+line.y1 = 0;
+line.y2 = 0;
+line.x2 = distance - 10;
+line.strokeDasharray = "1,3";
+
+var circle = bullet.createChild(am4core.Circle);
+circle.radius = 30;
+circle.fillOpacity = 1;
+circle.strokeOpacity = 0;
+
+var circleHoverState = circle.states.create("hover");
+circleHoverState.properties.scale = 1.3;
+
+series.heatRules.push({ target: circle, min: 20, max: 50, property: "radius" });
+circle.adapter.add("fill", function(fill, target) {
+  if (target.dataItem) {
+    return chart.colors.getIndex(target.dataItem.index)
+  }
+});
+circle.tooltipText = "{text}: {value}";
+circle.adapter.add("tooltipY", function(tooltipY, target){
+  return -target.pixelRadius - 4;
+});
+
+var yearLabel = bullet.createChild(am4core.Label);
+yearLabel.text = "{year}";
+yearLabel.strokeOpacity = 0;
+yearLabel.fill = am4core.color("#fff");
+yearLabel.horizontalCenter = "middle";
+yearLabel.verticalCenter = "middle";
+yearLabel.interactionsEnabled = false;
+
+var label = bullet.createChild(am4core.Label);
+label.propertyFields.text = "text";
+label.strokeOpacity = 0;
+label.horizontalCenter = "right";
+label.verticalCenter = "middle";
+
+label.adapter.add("opacity", function(opacity, target) {
+  if(target.dataItem){
+    var index = target.dataItem.index;
+    var line = target.parent.children.getIndex(0);
+
+    if (index % 2 == 0) {
+      target.y = -distance * am4core.math.sin(-angle);
+      target.x = -distance * am4core.math.cos(-angle);
+      line.rotation = -angle - 180;
+      target.rotation = -angle;
+    }
+    else {
+      target.y = -distance * am4core.math.sin(angle);
+      target.x = -distance * am4core.math.cos(angle);
+      line.rotation = angle - 180;
+      target.rotation = angle;
+    }
+  }
+  return 1;
+});
+
+var outerCircle = bullet.createChild(am4core.Circle);
+outerCircle.radius = 30;
+outerCircle.fillOpacity = 0;
+outerCircle.strokeOpacity = 0;
+outerCircle.strokeDasharray = "1,3";
+
+var hoverState = outerCircle.states.create("hover");
+hoverState.properties.strokeOpacity = 0.8;
+hoverState.properties.scale = 1.5;
+
+outerCircle.events.on("over", function(event){
+  var circle = event.target.parent.children.getIndex(1);
+  circle.isHover = true;
+  event.target.stroke = circle.fill;
+  event.target.radius = circle.pixelRadius;
+  event.target.animate({property: "rotation", from: 0, to: 360}, 4000, am4core.ease.sinInOut);
+});
+
+outerCircle.events.on("out", function(event){
+  var circle = event.target.parent.children.getIndex(1);
+  circle.isHover = false;
+});
+
+chart.scrollbarX = new am4core.Scrollbar();
+chart.scrollbarX.opacity = 0.5;
+chart.scrollbarX.width = am4core.percent(50);
+chart.scrollbarX.align = "center";
+
+}); // end am4core.ready()
+</script>
+
+<!-- HTML -->
+<div id="chartdiv"></div>
 
 
     <!-- Breadcrumbs -->
